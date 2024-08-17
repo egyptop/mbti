@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MBTI 검사</title>
+</head>
+<body>
+    <div class="container">
+        <h1>MBTI 검사</h1>
+        <form id="mbti-form">
+            <div id="questions">
+                <!-- 질문이 JavaScript로 추가됩니다. -->
+            </div>
+            <button type="submit">결과 보기</button>
+        </form>
+        <div id="result" class="hidden">
+            <h2>당신의 MBTI 유형은: <span id="mbti-result"></span></h2>
+            <button onclick="restart()">다시 검사하기</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
